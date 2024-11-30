@@ -1,6 +1,6 @@
-# Classroom Dashboard
+# ClassRoom Dashboard
 
-This project is a **Classroom Dashboard** designed using **HTML** and **CSS**. 
+This project is a **ClassRoom Dashboard** designed using **HTML** and **CSS**. 
 The page is intended to represent a teacher's dashboard, where they can manage classes, materials, groups, 
 and track semester progress. It's a simple, non-responsive page tailored for PC format only.
 
