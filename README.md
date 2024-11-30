@@ -4,7 +4,7 @@ This project is a **Classroom Dashboard** designed using **HTML** and **CSS**.
 The page is intended to represent a teacher's dashboard, where they can manage classes, materials, groups, 
 and track semester progress. It's a simple, non-responsive page tailored for PC format only.
 
-## Features
+## 📝 Features
 - **Sidebar Navigation**: A sidebar containing various sections like Dashboard, Incoming Lessons, Groups, Materials, Semester progress, and Inbox.
 - **Add New**: Button to add new lessons, groups, or materials.
 - **Icons for easy navigation**: Various icons that help in navigating between sections like Dashboard, Incoming Lesson, and Inbox.
@@ -19,17 +19,13 @@ and allows actions such as sending messages, rescheduling lessons, and sharing m
   
 - **Inbox Section**: Displays messages from students with their status (Online/Offline) and their program details.
 
-## Screenshot
-
-![Classroom Dashboard Screenshot](Images/Class Room Preview .png)
-
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **HTML5**: Used for structuring the content on the page.
 - **CSS3**: Used for styling the layout and design.
 - **Font Awesome**: Icons used throughout the interface for better usability.
 
-## Future Improvements
+## 📝 Future Improvements
 
 - **Responsiveness**: Currently, the page is designed for PC format only.
 I will be working on making it fully responsive, so it adjusts according to different screen sizes (mobile, tablet, etc.).
