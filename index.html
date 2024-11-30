@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/ClassRoom.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Class Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="Images/ClassRoom.png" alt="ClassRoom Logo">
+            <h1>ClassRoom</h1>
+        </div>
+        <div class="add-new">
+           <a href=""> + Add New</a>
+        </div>
+        <nav>
+          <ul class="menu-list">
+            <a href="#"></a><li class="menu-list"><i class="fa-solid fa-sliders"></i>Dashboard
+            </li></a>
+            <a href="#"></a><li class="menu-list"><i class="fa-solid fa-calendar-day"></i>Incoming Lesson
+            </li></a>
+            <a href="#"></a><li class="menu-list"><i class="fa-solid fa-user-group"></i>Groups
+            </li></a>
+            <a href="#"></a><li class="menu-list"><i class="fa-solid fa-book-open"></i>Materials
+            </li></a>
+            <a href="#"></a><li class="menu-list"><i class="fa-solid fa-graduation-cap"></i>Semester
+            </li></a>
+            <li class="inbox"><span><i class="fa-solid fa-envelope ico"></i></span>Inbox <span class="badge">13</span></li>
+          </ul>
+        </nav>
+        <div class="profile">
+            <img src="Images/PP.jpg" alt="Teacher">
+            <p><b>Meahadi Hasan</b></p>
+            <p>Teacher</p>
+            <button class="logout">Logout</button>
+        </div>
+    </div>
+
+     <!-- Main Content Part -->
+     <main class="content">
+        <section class="incoming-lesson">
+          <h1 class="dashboard-title">Dashboard</h1>
+          <div class="text1in">
+            <div class="textinc">
+              <h2 class="inc">Incoming Lesson</h2>
+            </div>
+            <div class="show">
+              <span class="textsh">Show All</span><span class="textsh"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+            </div>
+          </div>
+          <div class="lessons">
+            <div class="lesson">
+              <h5>Monday</h5>
+              <div class="lesson-details">
+                <span class="ico1"><i class="fa-solid fa-calendar-minus"></i></span>
+                <span>2:00 PM - 3:30 PM <br><span class="smallt">React-6th Batch</span></span>
+                <span class="licon"><i class="fa-solid fa-circle"></i>Lesson 30</span>
+                <span>Online Class: <b>Zoom</b></span>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </div>
+            </div>
+            <div class="lesson">
+              <h5>Tuesday</h5>
+              <div class="lesson-details">
+                <span class="ico1"><i class="fa-solid fa-calendar-minus"></i></span>
+                <span>2:00 PM - 3:30 PM <br><span class="smallt">React-7th Batch</span></span>
+                <span class="licon lch"><i class="fa-solid fa-circle"></i>Lesson 25</span>
+                <span>Online Class: <b>Zoom</b></span>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="materials">
+          <h4 class="mat">Materials</h4>
+          <div class="images">
+            <div class="img1">
+              <h4>Explore WebDev
+              </h4>
+              <img src="Images/Web Development.jpg" alt="Web Development">
+            </div>
+            <div class="img1">
+              <h4>Explore Web Design
+              </h4>
+              <img src="Images/Web Design.jpg" alt="Web Design">
+            </div>
+            <div class="img1">
+              <h4>Explore SEO
+              </h4>
+              <img src="Images/SEO.jpg" alt="SEO">
+            </div>
+          </div>
+        </section>
+      </main>
+
+   <!-- Right Sidebar Part -->
+      <div class="sidebar3">
+        <side class="right-sidebar">
+          <section class="groups">
+            <div class="text1in">
+              <div class="textinc">
+                <h2 class="inc1">Groups</h2>
+              </div>
+              <div class="show1">
+               <span class="textsh"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+              </div>
+            </div>
+            <div class="profile1">
+              <img src="Images/Students-21B.png" alt="Students-21B">
+              <h5>21 th Batch<br><span>Number Students 25</span></h5><br>
+              
+              
+            </div>
+              <div class="list2">
+                <div class="profile1">
+                  <img src="Images/Students-22B.png" alt="Students-22B">
+                  <h5>22nd Batch <br><span>Number Students 21</span></h5><br>
+                  
+                  
+                </div>
+                <ul class="menu2">
+                  <li><span><i class="fa-solid fa-paper-plane ico1"></i></span>Send Massage</li>
+                  <li><span><i class="fa-solid fa-pen-to-square ico1"></i></span>Reschedule Lesson</li>
+                  <li><span><i class="fa-solid fa-share-nodes ico1"></i></span>Share Materials</li>
+                </ul>
+              </div>
+             
+            <div class="profile1">
+              <img src="Images/Students-21B.png" alt="Students-23B">
+              <h5>23th Batch<br><span>Number Students 35</span></h5><br>
+              
+              
+            </div><div class="profile1">
+              <img src="Images/Students-21B.png" alt="Students-24B">
+              <h5>24th Batch<br><span>Number Students 45</span></h5><br>
+              
+             
+            </div>
+            <div class="groups-section">
+              <!-- Groups list -->
+              <button class="create-new-group">+Create New Group</button>
+          </div>
+          </section>
+        </side>
+  
+      </div>
+      <div class="side4">
+        <section class="progress">
+          <div class="profile3">
+            <div class="text1in">
+              <div class="textinc">
+                <input type="text" class="search" placeholder="Search">
+              </div>
+              <div class="show1">
+               <span class="textsh"><i class="fa-solid fa-bell not"></i></span>
+              </div>
+            </div>
+            <div class="text1in pro3">
+              <div class="textinc ">
+                <h2 class="inc ">Semester Progress</h2>
+              </div>
+              <div class="show">
+                <span class="textsh"><i class="fa-solid fa-ellipsis-vertical not1"></i></span>
+              </div>
+            </div>
+            <div class="lesson-details1">
+              <span class="ico2"><i class="fa-solid fa-spinner"></i></span>
+              <span><span class="smallt2">Lesson Progress<br></span>25/30</span>
+            </div>
+            <div class="lesson-details2 ">
+              <span class="ico3"><i class="fa-solid fa-calendar-check"></i></i></span>
+              <span><span class="smallt1">Semester Exam in<br></span>15 days</span>
+            </div>
+        </section>
+
+        <div class="inbox-section">
+          <h3>Inbox</h3>
+          <div class="inbox-item">
+              <div class="details">
+                  <h4>Nahid Hasan</h4>
+                  <p>Online</p>
+                  <p>M.Sc. in Computer Science</p>
+              </div>
+          </div>
+          <div class="inbox-item">
+              <div class="details">
+                  <h4>Meahadi Hasan</h4>
+                  <p>Offline</p>
+                  <p>B.Sc. in Information Technology</p>
+              </div>
+          </div>
+          <div class="inbox-item">
+            <div class="details">
+                <h4>Emon Islam</h4>
+                <p>Online</p>
+                <p>M.Sc. Civil Engineering</p>
+            </div>
+        </div>
+      </div>      
+      </div>
+</div>
+</body>
+</html>
