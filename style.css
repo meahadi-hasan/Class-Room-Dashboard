@@ -411,3 +411,125 @@ line-height: 20px;
   color: #666;
 }
 
+
+/* Mobile Responsive CSS */
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .add-new {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    .menu-list li {
+        justify-content: center;
+        padding: 8px 0;
+    }
+
+    .profile {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .incoming-lesson, .materials {
+        margin-top: 20px;
+    }
+
+    .lessons {
+        flex-direction: column;
+    }
+
+    .lesson {
+        margin-bottom: 10px;
+    }
+
+    .lesson-details {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .lesson-details span {
+        margin: 5px 0;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .sidebar3 {
+        width: 100%;
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .profile1 {
+        justify-content: center;
+    }
+
+    .menu2 li {
+        text-align: center;
+    }
+
+    .create-new-group {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .side4 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .progress {
+        margin-top: 20px;
+    }
+
+    .lesson-details1, .lesson-details2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .inbox-section {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .inbox-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .details h4, .details p {
+        text-align: center;
+    }
+}
